@@ -1,0 +1,11 @@
+{
+  "name": "trinit_tech-savvy_dev03",
+  "version": "1.0.0",
+  "description": "A wix like website for building data engineering plots . Built for TRINIT hackathon.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tech-savvy",
+  "license": "ISC"
+}
