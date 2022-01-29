@@ -11,12 +11,16 @@ const steps = [
     content: <UploadCSV />,
   },
   {
-    title: "Second",
-    content: "Second-content",
+    title: "Upload to Database",
+    content: "<UploadToDatabase />",
   },
   {
-    title: "Last",
-    content: "Last-content",
+    title: "Visualize Data",
+    content: "<VisualizeData />",
+  },
+  {
+    title: "Statistical/Analytical Methods",
+    content: "<StatisticalAnalyticalMethods />",
   },
 ];
 
