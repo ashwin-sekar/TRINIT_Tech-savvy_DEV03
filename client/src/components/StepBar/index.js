@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { Steps, Button, message } from "antd";
+import { Steps, Divider } from "antd";
+import "./style.css";
+
 const { Step } = Steps;
 
 const steps = [
@@ -17,25 +19,15 @@ const steps = [
   },
 ];
 
-const StepBar = () => {
-  const [current, setCurrent] = useState(0);
-
-  const next = () => {
-    setCurrent(current + 1);
-  };
-
-  const prev = () => {
-    setCurrent(current - 1);
-  };
-
+const StepBar = (props) => {
   return (
-    <>
-      <Steps current={current}>
-        {steps.map((item) => (
+    <div className="step-container">
+      <Steps progressDot current={props.current}>
+        {props.steps.map((item) => (
           <Step key={item.title} title={item.title} />
         ))}
       </Steps>
-      <div className="steps-content">{steps[current].content}</div>
+      {/* <div className="steps-content">{steps[current].content}</div>
       <div className="steps-action">
         {current < steps.length - 1 && (
           <Button type="primary" onClick={() => next()}>
@@ -55,8 +47,8 @@ const StepBar = () => {
             Previous
           </Button>
         )}
-      </div>
-    </>
+      </div> */}
+    </div>
   );
 };
 

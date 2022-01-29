@@ -1,6 +1,7 @@
 import React from "react";
 import { Upload, message } from "antd";
 import { InboxOutlined } from "@ant-design/icons";
+import "./style.css";
 const { Dragger } = Upload;
 
 const props = {
@@ -25,18 +26,21 @@ const props = {
 
 const UploadFile = () => {
   return (
-    <Dragger {...props}>
-      <p className="ant-upload-drag-icon">
-        <InboxOutlined />
-      </p>
-      <p className="ant-upload-text">
-        Click or drag file to this area to upload
-      </p>
-      <p className="ant-upload-hint">
-        Support for a single or bulk upload. Strictly prohibit from uploading
-        company data or other band files
-      </p>
-    </Dragger>
+    <div className="upload-card">
+      <input className="upload" type="file"></input>
+    </div>
+    // <Dragger {...props}>
+    //   <p className="ant-upload-drag-icon">
+    //     <InboxOutlined />
+    //   </p>
+    //   <p className="ant-upload-text">
+    //     Click or drag file to this area to upload
+    //   </p>
+    //   <p className="ant-upload-hint">
+    //     Support for a single or bulk upload. Strictly prohibit from uploading
+    //     company data or other band files
+    //   </p>
+    // </Dragger>
   );
 };
 
