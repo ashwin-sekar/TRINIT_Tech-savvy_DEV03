@@ -27,7 +27,8 @@ const props = {
 const UploadFile = () => {
   return (
     <div className="upload-card">
-      <input className="upload" type="file"></input>
+      <div className="heading"><h1>Upload CSV files here</h1></div>
+      <div className="heading"><input className="upload" type="file"></input></div>
     </div>
     // <Dragger {...props}>
     //   <p className="ant-upload-drag-icon">
