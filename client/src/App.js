@@ -12,15 +12,15 @@ const steps = [
   },
   {
     title: "Upload to Database",
-    content: <UploadToDatabase />,
+    content: "<UploadToDatabase />",
   },
   {
     title: "Visualize Data",
-    content: <VisualizeData />,
+    content: "<VisualizeData />",
   },
   {
     title: "Statistical/Analytical Methods",
-    content: <StatisticalAnalyticalMethods />,
+    content: "<StatisticalAnalyticalMethods />",
   },
 ];
 
