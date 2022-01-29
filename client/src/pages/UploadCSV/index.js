@@ -1,10 +1,13 @@
 import React from "react";
-import 
+import UploadFile from "../../components/UploadFile";
+import "./style.css";
 
 const index = () => {
-  return <div className="upload-container">
-      
-  </div>;
+  return (
+    <div className="upload-container">
+      <UploadFile />
+    </div>
+  );
 };
 
 export default index;
