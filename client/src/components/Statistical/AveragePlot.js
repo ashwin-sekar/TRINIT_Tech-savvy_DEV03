@@ -33,8 +33,8 @@ const AveragePlot = () => {
           },
         ]}
         layout={{
-          width: 330,
-          height: 240,
+          width: 700,
+          height: 600,
           title: "Avg value plot",
         }}
       />
