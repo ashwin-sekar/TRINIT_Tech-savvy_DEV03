@@ -14,7 +14,7 @@ const index = (props) => {
       <LinePlot />
       <BoxPlot />
       <HistogramPlot />
-      <Line2Plot />
+      {/* <Line2Plot /> */}
       <Button type="primary" onClick={next}>
         Statistical Analysis
       </Button>
