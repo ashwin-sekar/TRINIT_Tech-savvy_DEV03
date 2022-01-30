@@ -23,7 +23,7 @@ array.forEach((element, index) => {
   energy.push(data[4]);
 });
 // let something = array[0].split(",");
-// a - energy, v - voltage, t - power, l - power factor, o - current
+// a - energy, V - voltage, t - power, l - power factor, o - current
 Object.assign(result, { [keys[0]]: voltage });
 Object.assign(result, { [keys[1]]: current });
 Object.assign(result, { [keys[2]]: power_factor });
