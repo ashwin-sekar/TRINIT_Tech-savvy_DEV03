@@ -34,9 +34,7 @@ making process.
 
 ![Screen_Shot_2022-01-30_at_1 35 48_PM](https://user-images.githubusercontent.com/71023544/151692457-6035b0fd-3bfc-4172-a46f-371e3595bac7.png)
 
-
-
-
+![Screen_Shot_2022-01-30_at_1 35 52_PM](https://user-images.githubusercontent.com/71023544/151692490-b385d672-4534-453c-b551-f923edb21e27.png)
 
 
 Short demo video is on this [link]()
