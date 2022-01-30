@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import UploadCSV from "./pages/UploadCSV";
 import UploadToDatabase from "./pages/FileUpload";
+import VisualizeData from "./pages/VisualizeData";
 import StepBar from "./components/StepBar";
 import "./App.css";
 import "antd/dist/antd.css";
@@ -27,7 +28,7 @@ function App() {
     },
     {
       title: "Visualize Data",
-      content: "<VisualizeData />",
+      content: <VisualizeData />,
     },
     {
       title: "Statistical/Analytical Methods",

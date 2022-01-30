@@ -1,0 +1,14 @@
+.plot-cards {
+  width: 75vw;
+  max-width: 1500px;
+  margin: 6rem auto;
+  display: grid;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .plot-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
