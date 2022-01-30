@@ -1,28 +1,10 @@
 import React, { useState } from "react";
-import UploadFile from "./components/UploadFile";
 import UploadCSV from "./pages/UploadCSV";
+import UploadToDatabase from "./pages/FileUpload";
+import VisualizeData from "./pages/VisualizeData";
 import StepBar from "./components/StepBar";
 import "./App.css";
 import "antd/dist/antd.css";
-
-const steps = [
-  {
-    title: "Upload csv file",
-    content: <UploadCSV />,
-  },
-  {
-    title: "Upload to Database",
-    content: "<UploadToDatabase />",
-  },
-  {
-    title: "Visualize Data",
-    content: "<VisualizeData />",
-  },
-  {
-    title: "Statistical/Analytical Methods",
-    content: "<StatisticalAnalyticalMethods />",
-  },
-];
 
 function App() {
   const [current, setCurrent] = useState(0);
@@ -35,11 +17,29 @@ function App() {
     setCurrent(current - 1);
   };
 
+  const steps = [
+    {
+      title: "Upload csv file",
+      content: <UploadCSV nextStep={next} />,
+    },
+    {
+      title: "Upload to Database",
+      content: <UploadToDatabase nextStep={next} />,
+    },
+    {
+      title: "Visualize Data",
+      content: <VisualizeData />,
+    },
+    {
+      title: "Statistical/Analytical Methods",
+      content: "<StatisticalAnalyticalMethods />",
+    },
+  ];
+
   return (
     <div className="">
-      <StepBar steps={steps} />
+      <StepBar steps={steps} current={current} />
       <div className="steps-content">{steps[current].content}</div>
-      {/* <UploadFile /> */}
     </div>
   );
 }
