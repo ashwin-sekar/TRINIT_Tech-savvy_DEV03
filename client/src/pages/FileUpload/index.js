@@ -1,13 +1,20 @@
 import React from "react";
-import UploadFile from "../../components/UploadFile";
+import Uploaded from "../../components/Uploaded";
+import { Button, message } from "antd";
 import "./style.css";
 
-const index = () => {
+const index = (props) => {
+  const next = () => {
+    props.nextStep();
+    message.success("Uploaded to db");
+  };
   return (
     <div className="upload-container">
-      <UploadFile />
+      <Uploaded />
+      <Button className="db-btn" type="primary" onClick={next}>
+        Add to MongoDB Database
+      </Button>
     </div>
-    
   );
 };
 

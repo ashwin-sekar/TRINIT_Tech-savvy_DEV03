@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import UploadFile from "./components/UploadFile";
 import UploadCSV from "./pages/UploadCSV";
+import UploadToDatabase from "./pages/FileUpload";
 import StepBar from "./components/StepBar";
 import "./App.css";
 import "antd/dist/antd.css";
@@ -23,7 +23,7 @@ function App() {
     },
     {
       title: "Upload to Database",
-      content: "<UploadToDatabase />",
+      content: <UploadToDatabase nextStep={next} />,
     },
     {
       title: "Visualize Data",
@@ -39,7 +39,6 @@ function App() {
     <div className="">
       <StepBar steps={steps} current={current} />
       <div className="steps-content">{steps[current].content}</div>
-      {/* <UploadFile /> */}
     </div>
   );
 }
