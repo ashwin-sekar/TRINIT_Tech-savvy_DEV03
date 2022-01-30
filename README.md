@@ -10,6 +10,16 @@ of goods for the firm. The accumulated data is then extracted and
 processed and visualized with different filters to aid in the decision 
 making process.
 ### Here we designed a website for visualizing data , consisting of a progress bar displaying all the steps user has accomplished right from taking data from the source to displaying it on the website and sending notifications to the user. The user also have the options to apply different filters and provide mechanisms to apply statistical and analytical methods such as regression , so that the end user can derive useful insights from the provided raw data.
+## Tech Stack:
+    Front-end:
+    -> React
+    ->Plotlyjs for graphical simulation
+
+     Backend: 
+     ->Nodejs
+     ->express.js 
+     ->mongodb
+
 ## **_MAIN FEATURES_**
 **UPLOADING OF FILES** (WINDOW 1): The data to be used as input must strictly be in the form of .csv files. The user can click, select and upload the respective files.
 
