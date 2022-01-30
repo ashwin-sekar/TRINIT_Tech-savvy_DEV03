@@ -32,6 +32,10 @@ making process.
                                         
 **STATISTICAL/ANALYTICAL METHODS** (WINDOW 4) : The user interface allows the application of atleast a few statistical and analytical methods.
 
+![Screen_Shot_2022-01-30_at_1 35 48_PM](https://user-images.githubusercontent.com/71023544/151692457-6035b0fd-3bfc-4172-a46f-371e3595bac7.png)
+
+
+
 
 
 
