@@ -16,8 +16,6 @@ const AveragePlot = () => {
     return total / count;
   };
 
-  console.log(calculateAverage(PlotJson.o));
-
   return (
     <div className="avg-container">
       <Plot

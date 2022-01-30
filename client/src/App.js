@@ -38,7 +38,7 @@ function App() {
   ];
 
   return (
-    <div className="">
+    <div className="content">
       <StepBar steps={steps} current={current} />
       <div className="steps-content">{steps[current].content}</div>
     </div>
