@@ -23,7 +23,8 @@ making process.
 
 
 **VISUALIZATION OF DATA** (WINDOW 3) : The user interface allows the user to plot the features in different graphs as per their own requirements .
-                                       **  _The platform allows downloading the graphs and charts chosen by the user to the local PC._ **
+                                        _The platform allows downloading the graphs and charts chosen by the user to the local PC._ 
+                                        
                                         
 **STATISTICAL/ANALYTICAL METHODS** (WINDOW 4) : The user interface allows the application of atleast a few statistical and analytical methods.
 
