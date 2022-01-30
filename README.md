@@ -26,9 +26,13 @@ making process.
                                         _The platform allows downloading the graphs and charts chosen by the user to the local PC._ 
 
 ![Screen_Shot_2022-01-30_at_1 35 35_PM](https://user-images.githubusercontent.com/71023544/151692310-f0d3f712-5516-4e43-af4c-959558f7de25.png)
+
+![Screen_Shot_2022-01-30_at_1 35 39_PM](https://user-images.githubusercontent.com/71023544/151692446-22e990d5-2a1b-4ea7-8d4b-7ecebd5f7d50.png)
                                         
                                         
 **STATISTICAL/ANALYTICAL METHODS** (WINDOW 4) : The user interface allows the application of atleast a few statistical and analytical methods.
+
+
 
 
 Short demo video is on this [link]()
