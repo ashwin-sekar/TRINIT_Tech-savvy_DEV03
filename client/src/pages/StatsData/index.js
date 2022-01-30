@@ -5,7 +5,7 @@ import VariancePlot from "../../components/Statistical/VariancePlot";
 import "./style.css";
 const index = () => {
   return (
-  <div className="statplot-cards">
+  <div className="stat-cards">
     <AveragePlot />
     <VariancePlot />
     <StndDeviation />
