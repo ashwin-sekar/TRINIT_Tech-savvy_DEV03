@@ -2,12 +2,11 @@ import React from "react";
 import UploadFile from "../../components/UploadFile";
 import "./style.css";
 
-const index = () => {
+const index = (props) => {
   return (
     <div className="upload-container">
-      <UploadFile />
+      <UploadFile nextStep={props.nextStep} />
     </div>
-    
   );
 };
 

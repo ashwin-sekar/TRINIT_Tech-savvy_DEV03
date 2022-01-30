@@ -1,8 +1,6 @@
 import React from "react";
-import { Upload, message } from "antd";
-import { InboxOutlined } from "@ant-design/icons";
+import { Upload, message, Button } from "antd";
 import "./style.css";
-const { Dragger } = Upload;
 
 const props = {
   name: "file",
@@ -24,11 +22,24 @@ const props = {
   },
 };
 
-const UploadFile = () => {
+const UploadFile = (props) => {
+  const next = () => {
+    props.nextStep();
+    message.success("file uploaded successfully.");
+  };
   return (
     <div className="upload-card">
-      <div className="heading"><h1>Upload CSV files here</h1></div>
-      <div className="heading"><input className="upload" type="file"></input></div>
+      <div className="heading">
+        <h1>Upload CSV files here</h1>
+      </div>
+      <div className="heading">
+        <input className="upload" type="file"></input>
+      </div>
+      <div className="upload-btn">
+        <Button type="primary" onClick={next}>
+          Upload
+        </Button>
+      </div>
     </div>
     // <Dragger {...props}>
     //   <p className="ant-upload-drag-icon">
