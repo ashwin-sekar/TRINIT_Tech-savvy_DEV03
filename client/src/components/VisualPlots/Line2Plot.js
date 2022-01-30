@@ -8,12 +8,14 @@ const HistogramPlot = () => {
     <Plot
         data={[
           {
-            z: [PlotJson.V, PlotJson.o, PlotJson.t],
-            
-            type: 'heatmap'
+            x: PlotJson.t,
+            y: PlotJson.V,
+            type: 'scatter',
+            mode: 'lines+markers',
+            marker: {color: 'pink'},
           }
         ]}
-        layout={ {width: 330, height: 240, title: 'Heat plot'} }
+        layout={ {width: 330, height: 240, xaxis: { title:{text:'Power'}},yaxis: { title:{text:'Voltage'}},title: 'Power vs Voltage plot'} }
       />
   </div>
   );

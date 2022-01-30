@@ -16,7 +16,7 @@ const HistogramPlot = () => {
           }
         }
         ]}
-        layout={ {width: 330, height: 240, title: 'Histogram plot'} }
+        layout={ {width: 330, height: 240,xaxis: { title:{text:'Power factor'}}, title: 'Histogram plot'} }
       />
   </div>
   );

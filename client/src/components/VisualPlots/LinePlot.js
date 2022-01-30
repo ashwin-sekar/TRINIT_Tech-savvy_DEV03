@@ -15,7 +15,7 @@ const LinePlot = () => {
             marker: {color: 'red'},
           }
         ]}
-        layout={ {width: 330, height: 240, title: 'Line plot'} }
+        layout={ {width: 330, height: 240, xaxis: { title:{text:'Voltage'}},yaxis: { title:{text:'Current'}}, title: 'Line plot'} }
       />
   </div>
   );

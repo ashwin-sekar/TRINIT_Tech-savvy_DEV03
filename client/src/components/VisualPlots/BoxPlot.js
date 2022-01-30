@@ -10,11 +10,14 @@ const BoxPlot = () => {
           {
             y: PlotJson.t,
             type: 'box',
+            name:'Power'
           },
           {
             y: PlotJson.a,
             type: 'box',
+            name:'Energy'
           }
+        
         ]}
         layout={ {width: 320, height: 240, title: 'Box Plot'} }
       />
