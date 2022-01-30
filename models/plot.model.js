@@ -6,7 +6,7 @@ const plotSchema = new Schema({
   a: {
     type: Array,
   },
-  v: {
+  V: {
     type: Array,
   },
   t: {

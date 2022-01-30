@@ -29,10 +29,12 @@ app.get("/", (req, res) => {
 
 app.post("/mongodb", async (req, res) => {
   try {
-    const { a, v, t, l, o } = req.body;
+    const { a, V, t, l, o } = req.body;
+    if (!a || !V || !t || !l || !o)
+      return res.status(400).json({ msg: "Fill all fields" });
     const newPlot = new Plot({
       a,
-      v,
+      V,
       t,
       l,
       o,
